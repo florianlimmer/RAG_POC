@@ -5,12 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "python-dotenv>=1.0.0", # Besser als 'dotenv' (das ist oft veraltet)
+    "python-dotenv>=1.0.0", 
     "huggingface-hub>=0.20.0",
-    "torch>=2.2.0,<2.6.0",  # 🚨 WICHTIG: PyTorch unter 2.6 halten!
-    "transformers>=4.38.0,<4.45.0", # Optimum braucht oft ältere Transformers
+    "torch>=2.2.0,<2.6.0",  
+    "transformers>=4.38.0,<4.45.0", 
     "optimum>=1.16.0",
-    "optimum-intel[openvino]>=1.15.0", # Wichtig: [openvino] extra angeben
+    "optimum-intel[openvino]>=1.15.0",
     "openvino>=2024.0.0",
     "pandas>=2.0.0",
     "chromadb>=0.4.22",
@@ -19,5 +19,5 @@ dependencies = [
     "langchain-community>=0.0.10",
     "langchain-huggingface>=0.0.1",
     "langchain-chroma>=0.1.0",
-    "bitsandbytes>=0.41.0", # Optional für Windows oft schwierig, aber ok wenn es läuft
+    "bitsandbytes>=0.41.0", 
 ]
