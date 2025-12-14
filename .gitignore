@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.env
+
+# RAG Spezifisch - NICHT HOCHLADEN
+model_cache/
+vector_db/
+chroma_db/
+
+# IDE Dateien 
+.vscode/
+.idea/
